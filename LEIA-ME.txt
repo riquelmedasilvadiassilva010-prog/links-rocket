@@ -1,0 +1,7 @@
+ROCKET PRINT SLZ — SITE DEMONSTRATIVO
+- index.html é a página do site.
+- assets/rocket-print-logo.jpg contém a logo recortada da referência enviada.
+- Envie index.html e a pasta assets para a raiz do repositório GitHub Pages.
+- As fotos e os preços são ilustrativos; substitua pelas imagens e preços reais.
+- Confirme o link WhatsApp e configure Pix/Wi-Fi antes de publicar.
+- O carrinho monta mensagem com produtos, quantidades, valores estimados e observações.
