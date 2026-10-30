@@ -1,0 +1,11 @@
+ROCKET PRINT SLZ — SITE RESPONSIVO
+
+1. Extraia o ZIP.
+2. Abra index.html para pré-visualizar no navegador.
+3. Para publicar no GitHub Pages, envie index.html e a pasta assets para o repositório (mantendo a estrutura) e ative Settings > Pages.
+
+O site inclui serviços, portfólio ilustrativo, catálogo com quantidades e solicitação de orçamento via WhatsApp.
+As imagens são mockups ilustrativos com a identidade Rocket Print; não devem ser apresentadas como fotografias de trabalhos já executados pela empresa.
+Os preços estão como “Solicitar orçamento” porque a tabela real ainda não foi fornecida.
+O link do WhatsApp e o Instagram foram reaproveitados do material anterior e devem ser testados antes da publicação.
+Pix não foi incluído como pagamento porque a chave/dados oficiais ainda não foram informados.
