@@ -1,6 +1,0 @@
-Rocket Print SLZ — site demonstrativo
-
-1. Extraia este ZIP.
-2. Envie index.html para a raiz do repositório GitHub.
-3. As fotos são ilustrativas e carregam da internet; substitua pelas fotos reais da Rocket Print quando estiverem disponíveis.
-4. Confirme preços, chave Pix, Wi-Fi, links e WhatsApp antes de publicar.
