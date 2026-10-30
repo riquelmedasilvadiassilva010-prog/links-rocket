@@ -1,0 +1,19 @@
+ROCKET PRINT SLZ — SITE ATUALIZADO
+
+Arquivos:
+- index.html: site completo, com imagens embutidas no HTML.
+- assets/: imagens de apoio incluídas no pacote.
+
+Links configurados com os dados enviados:
+- WhatsApp: +55 98 8812-1071 (confirmar se o número está completo; foi usado exatamente como enviado).
+- Instagram: https://www.instagram.com/rocketprintslz/
+- Avaliação Google: https://search.google.com/local/writereview?placeid=ChIJX03dgAOR9gcRKwoEm_J3glE
+- Localização: https://maps.app.goo.gl/tc9iNZYBT5hQzvyc7?g_st=ac
+
+Publicação no GitHub Pages:
+1. Extraia este ZIP.
+2. Envie index.html e a pasta assets para a raiz do repositório.
+3. Em Settings > Pages, selecione a branch principal e a pasta /(root).
+4. Salve e abra o endereço publicado para testar.
+
+O catálogo monta a mensagem do pedido e abre o WhatsApp com o número configurado. Os produtos exibem “Solicitar orçamento” porque ainda não foram fornecidos preços e regras reais. As imagens são ilustrativas.
