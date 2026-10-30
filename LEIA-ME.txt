@@ -1,0 +1,20 @@
+ROCKET PRINT SLZ — SITE RESPONSIVO COM CATÁLOGO E ORÇAMENTO
+
+O que está incluído:
+- Cabeçalho com logo e nome Rocket Print SLZ, inspirado na referência enviada.
+- Paleta azul-marinho, azul e laranja.
+- Atalhos para WhatsApp, Instagram, Google, Pix, Wi-Fi e localização, organizados em grade.
+- Seções separadas: Nossos serviços, Catálogo com carrinho e Portfólio com fotos ilustrativas.
+- Layout responsivo para celular, tablet e computador.
+- O carrinho monta uma mensagem formatada com produtos, quantidades, unidades, valores estimados, nome e detalhes do pedido.
+
+IMPORTANTE ANTES DE PUBLICAR:
+1. Confirme o WhatsApp oficial. O código está configurado com o número público encontrado em um diretório comercial: 98 98812-1071. Se não for o número correto, altere WHATSAPP_NUMBER no final do index.html para o número oficial com código do país (ex.: 55 + DDD + número, só dígitos).
+2. Preencha PIX_KEY, WIFI_NAME e WIFI_PASSWORD apenas com os dados confirmados/autorizados pela empresa.
+3. O botão de avaliação abre uma busca da empresa no Google; substitua pelo link direto de avaliação quando tiver.
+4. As fotos e preços do catálogo são demonstrativos. O portfólio usa fotos ilustrativas até recebermos os trabalhos reais da empresa.
+5. O endereço e o CEP devem ser confirmados com a empresa antes de publicar.
+
+Como usar:
+- Extraia o ZIP e abra index.html no navegador para visualizar.
+- Para publicar no GitHub Pages, envie o index.html e a pasta assets para o repositório.
