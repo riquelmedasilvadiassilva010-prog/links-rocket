@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101116">
+<meta name="description" content="Rocket Print SLZ — lonas, adesivos, placas, brindes, personalizados e impressão 3D em São Luís/MA.">
+<title>Rocket Print SLZ | Ideias que ganham vida</title>
+<style>
+:root{--bg:#101116;--panel:#191a21;--panel2:#20212a;--text:#f8f8fb;--muted:#b6b7c2;--accent:#ff7a22;--pink:#ed168b;--blue:#2c8fe8;--line:rgba(255,255,255,.12);--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 15% 0%,rgba(237,22,139,.12),transparent 36%),radial-gradient(ellipse at 90% 15%,rgba(44,143,232,.13),transparent 34%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.5}
+a{color:inherit;text-decoration:none}.wrap{width:min(100% - 32px,900px);margin:auto}.top{padding:30px 0 16px;text-align:center}.logo{width:112px;height:112px;object-fit:cover;border-radius:50%;border:3px solid transparent;background:linear-gradient(var(--bg),var(--bg)) padding-box,linear-gradient(135deg,var(--pink),var(--accent),var(--blue)) border-box;box-shadow:0 0 35px #ed168b22}.eyebrow{font-size:.77rem;letter-spacing:.22em;text-transform:uppercase;color:#ffb36e;font-weight:800;margin:18px 0 9px}.top h1{font-size:clamp(2rem,7vw,3.4rem);line-height:1.04;margin:0;letter-spacing:-.05em}.top h1 span{background:linear-gradient(90deg,#ffb15e,#ff4f9a,#65b7ff);color:transparent;background-clip:text}.intro{color:var(--muted);max-width:550px;margin:14px auto 23px}.actions{display:grid;gap:12px}.action{display:flex;align-items:center;gap:15px;text-align:left;padding:15px 17px;background:linear-gradient(120deg,#1b1c23,#15161b);border:1px solid var(--line);border-radius:18px;transition:.2s;min-height:82px}.action:hover{transform:translateY(-2px);border-color:#ff7a2280;background:var(--panel2)}.ico{display:grid;place-items:center;width:48px;height:48px;flex:0 0 48px;border-radius:15px;font-size:23px;font-weight:800;color:white}.wa{background:#20c86b}.ig{background:linear-gradient(135deg,#ffb13d,#ed168b 65%,#7546e8)}.google{background:#fff;color:#4285f4}.catalogico{background:linear-gradient(135deg,var(--pink),var(--blue))}.pix{background:#25b8a9}.wifi{background:#e4bb3f;color:#151515}.pin{background:#ff7a22}.copyico{background:#38313d;color:#ffbd6d}.action-copy{min-width:0;flex:1}.action strong{display:block;font-size:1rem;letter-spacing:.035em}.action small{display:block;color:var(--muted);font-size:.88rem;margin-top:2px}.chev{color:#ffb84f;font-size:26px;padding:0 3px}.section{padding:34px 0 5px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:16px;margin-bottom:17px}.section h2{font-size:1.18rem;letter-spacing:.15em;text-transform:uppercase;margin:0}.section-head p{color:var(--muted);font-size:.86rem;margin:5px 0 0}.pill{font-size:.78rem;color:#ffbf6b;border:1px solid #ffbf6b55;border-radius:999px;padding:7px 11px;white-space:nowrap}.catalog{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.tile{min-height:150px;position:relative;overflow:hidden;border-radius:19px;border:1px solid var(--line);padding:17px;display:flex;flex-direction:column;justify-content:end;background:linear-gradient(145deg,#30313b,#171820)}.tile:before{content:"";position:absolute;width:180px;height:180px;border-radius:50%;right:-50px;top:-65px;background:var(--glow,rgba(237,22,139,.25));filter:blur(2px)}.tile:after{content:attr(data-symbol);position:absolute;right:14px;top:12px;font-size:45px;opacity:.72}.tile>*{position:relative}.tile h3{margin:0;font-size:1.1rem}.tile p{margin:3px 0 0;color:#c7c8d1;font-size:.83rem}.tile.wide{grid-column:span 2;min-height:125px}.tile:nth-child(2){--glow:rgba(44,143,232,.35)}.tile:nth-child(3){--glow:rgba(255,122,34,.28)}.tile:nth-child(4){--glow:rgba(44,143,232,.28)}.tile:nth-child(5){--glow:rgba(237,22,139,.25)}.tile:nth-child(6){--glow:rgba(255,196,65,.25)}
+.services{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.service{border:1px solid var(--line);border-radius:17px;padding:16px;background:linear-gradient(145deg,#20212a,#15161c)}.service .sym{font-size:25px;color:#ff9a35}.service h3{margin:7px 0 4px;font-size:1rem}.service p{margin:0;color:var(--muted);font-size:.84rem}.portfolio{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.portfolio-item{min-height:130px;border-radius:17px;border:1px dashed #ff9a3566;background:linear-gradient(145deg,#29202c,#171820);padding:16px;display:flex;flex-direction:column;justify-content:end}.portfolio-item strong{font-size:.95rem}.portfolio-item span{font-size:.8rem;color:var(--muted);margin-top:3px}.info-card{border:1px solid #ffffff1b;background:linear-gradient(135deg,#1d1e26,#14151b);border-radius:22px;padding:20px;margin-top:13px}.info-row{display:flex;align-items:flex-start;gap:13px}.info-row+.info-row{border-top:1px solid var(--line);margin-top:16px;padding-top:16px}.info-symbol{font-size:22px;width:30px;text-align:center}.info-row strong{display:block}.info-row p{margin:4px 0 0;color:var(--muted);font-size:.9rem}.mini-btn{display:inline-flex;align-items:center;justify-content:center;margin-top:11px;border:1px solid #ffbd6d66;background:#ffbd6d12;color:#ffca79;padding:9px 13px;border-radius:11px;font-weight:750;font-size:.83rem;cursor:pointer}.notice{color:#a7a8b3;font-size:.77rem;margin:10px 2px 0}.location-link{display:block;border:1px solid var(--line);border-radius:18px;padding:17px;background:#1a1b22}.location-link .addr{color:var(--muted);font-size:.9rem;margin-top:5px}.footer{text-align:center;padding:36px 0 28px;color:#9698a5;font-size:.8rem}.footer b{color:#f5a95c}.sticky{position:fixed;bottom:14px;right:14px;z-index:5;border-radius:50%;width:56px;height:56px;display:grid;place-items:center;background:#20c86b;color:white;font-size:25px;box-shadow:0 8px 28px #0008;border:2px solid #ffffff35}
+
+/* Catálogo com orçamento */
+.product-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px}
+.product-card{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:linear-gradient(150deg,#20212a,#15161c)}
+.product-photo{width:100%;height:135px;object-fit:cover;display:block;background:#24252d}
+.product-content{padding:13px}
+.product-content h3{margin:0;font-size:1rem}
+.product-content p{margin:4px 0 8px;color:var(--muted);font-size:.8rem;min-height:38px}
+.price{font-weight:850;font-size:1.03rem;color:#ffbd6d}
+.price small{font-size:.72rem;color:var(--muted);font-weight:500}
+.product-controls{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:10px}
+.product-controls label{font-size:.72rem;color:var(--muted);display:block}
+.product-controls input,.product-controls select,.spec-input{width:100%;margin-top:4px;background:#101116;border:1px solid #ffffff24;border-radius:9px;padding:9px;color:#fff;font:inherit;font-size:.82rem;min-width:0}
+.add-btn{width:100%;margin-top:9px;border:0;border-radius:10px;padding:10px;background:linear-gradient(90deg,#ff8b21,#ed168b);color:white;font-weight:800;cursor:pointer}
+.cart-fab{position:fixed;right:15px;bottom:15px;z-index:20;border:0;border-radius:999px;padding:13px 17px;background:linear-gradient(90deg,#ff8b21,#ed168b);color:white;font-weight:850;box-shadow:0 8px 28px #0009;cursor:pointer}
+.cart-count{display:inline-grid;place-items:center;min-width:23px;height:23px;margin-left:5px;border-radius:50%;background:#fff;color:#181818;font-size:.78rem}
+.cart-panel{position:fixed;z-index:30;inset:0;background:#000b;display:none;align-items:flex-end;justify-content:center;padding:12px}
+.cart-panel.open{display:flex}
+.cart-box{width:min(100%,620px);max-height:88vh;overflow:auto;background:#17181f;border:1px solid #ffffff26;border-radius:23px;padding:19px;box-shadow:0 20px 60px #0009}
+.cart-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.cart-head h2{margin:0;font-size:1.2rem}
+.close-cart{border:1px solid var(--line);border-radius:10px;background:#252630;color:white;padding:8px 12px;cursor:pointer}
+.cart-item{padding:12px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:8px}
+.cart-item small{display:block;color:var(--muted);margin-top:3px}
+.remove-btn{background:transparent;border:0;color:#ff8d8d;cursor:pointer}
+.cart-total{display:flex;justify-content:space-between;gap:10px;font-weight:850;font-size:1.1rem;padding:15px 0}
+.cart-note{font-size:.78rem;color:#ffcc85;background:#ffbd6d12;border:1px solid #ffbd6d33;border-radius:12px;padding:10px;margin:10px 0}
+.quote-label{display:block;color:var(--muted);font-size:.82rem;margin-top:10px}
+.quote-label textarea{display:block;width:100%;min-height:75px;resize:vertical;background:#101116;border:1px solid #ffffff24;border-radius:10px;padding:10px;color:white;font:inherit;margin-top:5px}
+.checkout-btn{width:100%;padding:14px;border:0;border-radius:12px;background:#20c86b;color:#06190e;font-weight:900;font-size:1rem;cursor:pointer}
+@media(min-width:650px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.product-photo{height:155px}.cart-panel{align-items:center}}
+
+@media(min-width:650px){.wrap{width:min(100% - 48px,760px)}.top{padding-top:42px}.actions{grid-template-columns:1fr 1fr}.action:first-child{grid-column:span 2}.catalog{grid-template-columns:repeat(3,minmax(0,1fr))}.tile.wide{grid-column:span 1;min-height:150px}.tile{min-height:170px}.section{padding-top:42px}}
+
+/* Ajustes adicionais para telas grandes e tablets */
+@media (min-width: 900px) {
+  .wrap { width: min(100% - 64px, 1180px); }
+  .top { padding: 42px 0 26px; }
+  .top h1 { font-size: clamp(3rem, 5vw, 4.8rem); }
+  .intro { max-width: 720px; font-size: 1.08rem; }
+  .actions { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .action:first-child { grid-column: auto; }
+  .action { min-height: 104px; padding: 20px; }
+  .section { padding-top: 54px; }
+  .section h2 { font-size: 1.45rem; }
+  .product-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px; }
+  .product-photo { height: 210px; }
+  .product-content { padding: 18px; }
+  .product-content h3 { font-size: 1.12rem; }
+  .product-content p { font-size: .9rem; min-height: 42px; }
+  .catalog { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  .tile { min-height: 185px; padding: 22px; }
+  .tile.wide { grid-column: auto; min-height: 185px; }
+  .info-card { padding: 26px; }
+  .cart-box { max-width: 680px; padding: 26px; }
+}
+@media (min-width: 1200px) {
+  .product-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .catalog { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  .tile.wide { grid-column: span 2; }
+}
+@media (max-width: 380px) {
+  .wrap { width: min(100% - 22px, 900px); }
+  .product-grid { grid-template-columns: 1fr; }
+  .product-photo { height: 190px; }
+  .action { gap: 11px; padding: 13px; }
+  .ico { width: 42px; height: 42px; flex-basis: 42px; }
+  .action strong { font-size: .91rem; }
+}
+
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header class="top">
+    <img class="logo" src="assets/rocket-print-logo.jpg" alt="Logo Rocket Print SLZ">
+    <div class="eyebrow">Sua ideia merece ganhar vida</div>
+    <h1>ROCKET <span>PRINT SLZ</span></h1>
+    <p class="intro">Impressão, comunicação visual e personalizados feitos para destacar sua marca. Do projeto à realidade.</p>
+    <nav style="display:flex;justify-content:center;gap:16px;flex-wrap:wrap;margin:18px auto 0;font-size:.86rem;color:#ffbd6d"><a href="#servicos">Nossos serviços</a><a href="#catalogo">Catálogo</a><a href="#portfolio">Portfólio</a></nav>
+  </header>
+
+  <section class="actions" aria-label="Links principais">
+    <a class="action" href="https://wa.me/message/TUV5X6XZDRKLM1" target="_blank" rel="noopener">
+      <span class="ico wa">◉</span><span class="action-copy"><strong>FAÇA SEU ORÇAMENTO</strong><small>Chame a gente no WhatsApp</small></span><span class="chev">›</span>
+    </a>
+    <a class="action" href="https://www.instagram.com/rocketprintslz/" target="_blank" rel="noopener">
+      <span class="ico ig">◎</span><span class="action-copy"><strong>NOSSO INSTAGRAM</strong><small>@rocketprintslz · Veja nossos trabalhos</small></span><span class="chev">›</span>
+    </a>
+    <a class="action" href="https://www.google.com/search?q=Rocket+Print+SLZ+S%C3%A3o+Lu%C3%ADs+MA" target="_blank" rel="noopener">
+      <span class="ico google">G</span><span class="action-copy"><strong>AVALIE NO GOOGLE</strong><small>Sua opinião ajuda a gente a crescer</small></span><span class="chev">›</span>
+    </a>
+    <button class="action" style="color:inherit;font:inherit;cursor:pointer" onclick="copyPix()">
+      <span class="ico pix">▦</span><span class="action-copy"><strong>PAGUE COM PIX</strong><small id="pixCaption">Toque para copiar a chave Pix</small></span><span class="chev">▣</span>
+    </button>
+    <button class="action" style="color:inherit;font:inherit;cursor:pointer" onclick="copyWifi()">
+      <span class="ico wifi">⌁</span><span class="action-copy"><strong>WI-FI</strong><small id="wifiCaption">Copie os dados da rede (se disponível)</small></span><span class="chev">›</span>
+    </button>
+  </section>
+
+  <section class="section" id="servicos">
+    <div class="section-head"><div><h2>Nossos serviços</h2><p>O que fazemos para tirar suas ideias do papel.</p></div><span class="pill">Soluções criativas</span></div>
+    <div class="services">
+      <article class="service"><div class="sym">✳</div><h3>Comunicação visual</h3><p>Materiais visuais para divulgar marcas, lojas e eventos.</p></article>
+      <article class="service"><div class="sym">▧</div><h3>Impressão em grandes formatos</h3><p>Produção de lonas, banners e materiais promocionais.</p></article>
+      <article class="service"><div class="sym">◈</div><h3>Personalização</h3><p>Adesivos, brindes e produtos com a identidade do cliente.</p></article>
+      <article class="service"><div class="sym">⌘</div><h3>Impressão 3D</h3><p>Peças, protótipos e projetos personalizados.</p></article>
+      <article class="service"><div class="sym">▤</div><h3>Placas e sinalização</h3><p>Soluções para identificar espaços e comunicar informações.</p></article>
+      <article class="service"><div class="sym">✦</div><h3>DTF UV e materiais especiais</h3><p>Consulte opções, acabamentos e possibilidades de aplicação.</p></article>
+    </div>
+  </section>
+
+  <section class="section" id="catalogo">
+    <div class="section-head"><div><h2>Catálogo de produtos</h2><p>Escolha os itens, informe quantidade e monte seu orçamento.</p></div><span class="pill">Monte seu pedido</span></div>
+    <div class="product-grid">
+      <article class="product-card">
+        <img class="product-photo" src="https://images.unsplash.com/photo-1586075010923-2dd4570fb338?auto=format&fit=crop&w=700&q=80" alt="Exemplo ilustrativo de impressão em papel">
+        <div class="product-content"><h3>Adesivos personalizados</h3><p>Adesivos para marcas, embalagens e divulgação.</p><div class="price">R$ 25,00 <small>/ m² · exemplo</small></div>
+          <div class="product-controls"><label>Quantidade<input id="qty-adesivo" type="number" min="1" step="1" value="1"></label><label>Unidade<select id="unit-adesivo"><option>m²</option><option>pacote</option><option>unidade</option></select></label></div><button class="add-btn" onclick="addToCart('Adesivos personalizados',25,'qty-adesivo','unit-adesivo')">＋ Adicionar</button></div>
+      </article>
+      <article class="product-card">
+        <img class="product-photo" src="https://images.unsplash.com/photo-1560421683-6856ea585c78?auto=format&fit=crop&w=700&q=80" alt="Exemplo ilustrativo de banner impresso">
+        <div class="product-content"><h3>Lona / banner</h3><p>Impressão para fachadas, eventos e divulgação.</p><div class="price">R$ 45,00 <small>/ m² · exemplo</small></div>
+          <div class="product-controls"><label>Quantidade<input id="qty-lona" type="number" min="1" step="1" value="1"></label><label>Unidade<select id="unit-lona"><option>m²</option><option>metro linear</option><option>unidade</option></select></label></div><button class="add-btn" onclick="addToCart('Lona / banner',45,'qty-lona','unit-lona')">＋ Adicionar</button></div>
+      </article>
+      <article class="product-card">
+        <img class="product-photo" src="https://images.unsplash.com/photo-1602143407151-7111542de6e8?auto=format&fit=crop&w=700&q=80" alt="Exemplo ilustrativo de garrafa personalizada">
+        <div class="product-content"><h3>Brindes personalizados</h3><p>Ideias para presentear clientes e divulgar marcas.</p><div class="price">R$ 18,00 <small>/ unidade · exemplo</small></div>
+          <div class="product-controls"><label>Quantidade<input id="qty-brinde" type="number" min="1" step="1" value="1"></label><label>Unidade<select id="unit-brinde"><option>unidade</option><option>kit</option><option>pacote</option></select></label></div><button class="add-btn" onclick="addToCart('Brindes personalizados',18,'qty-brinde','unit-brinde')">＋ Adicionar</button></div>
+      </article>
+      <article class="product-card">
+        <img class="product-photo" src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80" alt="Exemplo ilustrativo de produto personalizado">
+        <div class="product-content"><h3>Placas</h3><p>Placas para identificação, sinalização e comunicação visual.</p><div class="price">R$ 60,00 <small>/ m² · exemplo</small></div>
+          <div class="product-controls"><label>Quantidade<input id="qty-placa" type="number" min="1" step="1" value="1"></label><label>Unidade<select id="unit-placa"><option>m²</option><option>unidade</option></select></label></div><button class="add-btn" onclick="addToCart('Placas',60,'qty-placa','unit-placa')">＋ Adicionar</button></div>
+      </article>
+      <article class="product-card">
+        <img class="product-photo" src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80" alt="Exemplo ilustrativo de camiseta personalizada">
+        <div class="product-content"><h3>Personalizados</h3><p>Produtos personalizados para sua marca ou ocasião.</p><div class="price">R$ 35,00 <small>/ unidade · exemplo</small></div>
+          <div class="product-controls"><label>Quantidade<input id="qty-personal" type="number" min="1" step="1" value="1"></label><label>Unidade<select id="unit-personal"><option>unidade</option><option>kit</option><option>pacote</option></select></label></div><button class="add-btn" onclick="addToCart('Personalizados',35,'qty-personal','unit-personal')">＋ Adicionar</button></div>
+      </article>
+      <article class="product-card">
+        <img class="product-photo" src="https://images.unsplash.com/photo-1631553127985-5f6f1e4f7e0d?auto=format&fit=crop&w=700&q=80" alt="Exemplo ilustrativo de impressão 3D">
+        <div class="product-content"><h3>Impressão 3D</h3><p>Peças e projetos sob medida, conforme avaliação.</p><div class="price">Sob consulta</div>
+          <div class="product-controls"><label>Quantidade<input id="qty-3d" type="number" min="1" step="1" value="1"></label><label>Unidade<select id="unit-3d"><option>unidade</option><option>peça</option><option>lote</option></select></label></div><button class="add-btn" onclick="addToCart('Impressão 3D',0,'qty-3d','unit-3d')">＋ Adicionar</button></div>
+      </article>
+    </div>
+    <p class="notice">Fotos e preços são apenas exemplos para demonstrar o funcionamento. Serão substituídos/confirmados com a Rocket Print antes da publicação. O valor final pode variar por medida, material, acabamento e arte.</p>
+  </section>
+
+  <section class="section" id="servicos">
+    <div class="section-head"><div><h2>Nossos serviços</h2><p>O que a Rocket Print pode desenvolver para sua empresa ou evento.</p></div></div>
+    <div class="catalog">
+      <div class="tile" data-symbol="▧"><h3>Comunicação visual</h3><p>Materiais para divulgar e identificar sua marca.</p></div>
+      <div class="tile" data-symbol="✳"><h3>Impressão e adesivação</h3><p>Impressos, adesivos e aplicações personalizadas.</p></div>
+      <div class="tile" data-symbol="▤"><h3>Brindes e personalizados</h3><p>Produtos personalizados para clientes e equipes.</p></div>
+      <div class="tile" data-symbol="⌘"><h3>Impressão 3D</h3><p>Peças e objetos sob medida.</p></div>
+      <div class="tile wide" data-symbol="◈"><h3>DTF UV e soluções especiais</h3><p>Consulte a equipe sobre materiais, medidas e possibilidades de produção.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="portfolio">
+    <div class="section-head"><div><h2>Portfólio · nossos trabalhos</h2><p>Uma vitrine de projetos reais — as imagens abaixo serão atualizadas com as fotos que você enviar.</p></div></div>
+    <div class="catalog">
+      <div class="tile" data-symbol="▣"><h3>Projetos de impressão</h3><p>Espaço reservado para fotos dos trabalhos.</p></div>
+      <div class="tile" data-symbol="✦"><h3>Produtos personalizados</h3><p>Espaço reservado para fotos dos trabalhos.</p></div>
+      <div class="tile" data-symbol="◉"><h3>Comunicação visual</h3><p>Espaço reservado para fotos dos trabalhos.</p></div>
+    </div>
+  </section>
+
+  <section class="section" id="localizacao">
+    <div class="section-head"><div><h2>Onde estamos</h2><p>Venha conhecer a Rocket Print SLZ.</p></div></div>
+    <a class="location-link" href="https://www.google.com/maps/search/?api=1&query=Avenida+Contorno+Oeste+N+45+B+QD+1+Cohatrac+IV+Sao+Luis+MA+65051-874" target="_blank" rel="noopener">
+      <div class="info-row"><span class="info-symbol">📍</span><div><strong>Rocket Print SLZ · São Luís/MA</strong><div class="addr">Avenida Contorno Oeste, N 45 B, Qd. 1, Cohatrac IV, São Luís – MA, CEP 65051-874</div><span class="mini-btn">Abrir localização no Maps ↗</span></div></div>
+    </a>
+  </section>
+
+  <section class="section" id="informacoes">
+    <div class="section-head"><div><h2>Informações rápidas</h2><p>Configuração para finalizar antes de publicar.</p></div></div>
+    <div class="info-card">
+      <div class="info-row"><span class="info-symbol">▦</span><div><strong>Chave Pix</strong><p id="pixDetails">Adicionar a chave Pix oficial da empresa antes de publicar.</p></div></div>
+      <div class="info-row"><span class="info-symbol">⌁</span><div><strong>Wi-Fi para clientes</strong><p id="wifiDetails">Adicionar nome da rede e senha somente se a empresa oferecer Wi-Fi aos clientes.</p></div></div>
+    </div>
+    <p class="notice">Os dados de Pix e Wi-Fi não estavam no perfil da Rocket Print enviado como referência, então deixamos campos seguros para configurar. Não usamos os dados de Wi-Fi da imagem de outra empresa.</p>
+  </section>
+
+  <footer class="footer">Feito para destacar suas ideias. <b>Rocket Print SLZ</b> · São Luís/MA</footer>
+</main>
+<a class="sticky" href="https://wa.me/message/TUV5X6XZDRKLM1" aria-label="Falar no WhatsApp" title="Falar no WhatsApp">◉</a>
+<script>
+/* Preencha somente com os dados confirmados pela empresa antes de publicar. */
+const PIX_KEY = "";
+const WIFI_NAME = "";
+const WIFI_PASSWORD = "";
+async function copyText(value, captionId, emptyMessage){
+  if(!value){document.getElementById(captionId).textContent=emptyMessage;return;}
+  try{await navigator.clipboard.writeText(value);document.getElementById(captionId).textContent="Copiado com sucesso!";}
+  catch(e){document.getElementById(captionId).textContent="Não foi possível copiar automaticamente.";}
+}
+function copyPix(){copyText(PIX_KEY,"pixCaption","Chave Pix ainda não configurada");}
+function copyWifi(){copyText(WIFI_NAME ? `Rede: ${WIFI_NAME}${WIFI_PASSWORD ? " | Senha: "+WIFI_PASSWORD : ""}` : "","wifiCaption","Dados do Wi-Fi ainda não configurados");}
+</script>
+
+<button class="cart-fab" onclick="openCart()" aria-label="Abrir carrinho de orçamento">🛒 Orçamento <span class="cart-count" id="cartCount">0</span></button>
+<div class="cart-panel" id="cartPanel" role="dialog" aria-modal="true" aria-labelledby="cartTitle" onclick="if(event.target===this)closeCart()">
+  <div class="cart-box">
+    <div class="cart-head"><h2 id="cartTitle">Seu orçamento</h2><button class="close-cart" onclick="closeCart()">Fechar ✕</button></div>
+    <p class="notice">Confira os itens, quantidades e unidades. O orçamento será enviado pelo WhatsApp para a equipe confirmar medidas, materiais e valores.</p>
+    <div id="cartItems"><p class="notice">Seu carrinho ainda está vazio. Adicione produtos no catálogo.</p></div>
+    <div class="cart-total"><span>Total estimado</span><span id="cartTotal">R$ 0,00</span></div>
+    <div class="cart-note">Preços demonstrativos: confirme os valores reais com a empresa. Itens “sob consulta” não entram no total estimado.</div>
+    <label class="quote-label">Medidas / detalhes do pedido<textarea id="quoteDetails" placeholder="Ex.: lona de 2 m × 1 m, acabamento com ilhós, arte já pronta..."></textarea></label>
+    <label class="quote-label">Nome (opcional)<input class="spec-input" id="customerName" placeholder="Como podemos te chamar?"></label>
+    <button class="checkout-btn" onclick="checkoutWhatsApp()">Finalizar orçamento pelo WhatsApp ↗</button>
+  </div>
+</div>
+<script>
+const cart = [];
+const whatsappLink = "https://wa.me/message/TUV5X6XZDRKLM1";
+const brl = n => n.toLocaleString("pt-BR",{style:"currency",currency:"BRL"});
+function addToCart(name, price, qtyId, unitId){
+  const quantity = Math.max(1, parseInt(document.getElementById(qtyId).value || "1",10));
+  const unit = document.getElementById(unitId).value;
+  const existing = cart.find(x=>x.name===name && x.unit===unit);
+  if(existing) existing.quantity += quantity;
+  else cart.push({name,price,quantity,unit});
+  renderCart();
+  const count = document.getElementById("cartCount");
+  count.textContent = cart.reduce((s,x)=>s+x.quantity,0);
+  document.querySelector(".cart-fab").setAttribute("aria-label",`Abrir carrinho com ${count.textContent} itens`);
+}
+function removeItem(index){cart.splice(index,1);renderCart();}
+function renderCart(){
+  const target=document.getElementById("cartItems");
+  if(!cart.length) target.innerHTML='<p class="notice">Seu carrinho ainda está vazio. Adicione produtos no catálogo.</p>';
+  else target.innerHTML=cart.map((x,i)=>`<div class="cart-item"><div><strong>${x.name}</strong><small>Quantidade: ${x.quantity} ${x.unit} · ${x.price ? brl(x.price)+" por "+x.unit : "valor sob consulta"}</small><small>Subtotal: ${x.price ? brl(x.price*x.quantity) : "a confirmar"}</small></div><button class="remove-btn" onclick="removeItem(${i})">Remover</button></div>`).join("");
+  const total=cart.reduce((s,x)=>s+x.price*x.quantity,0);
+  document.getElementById("cartTotal").textContent=brl(total);
+  document.getElementById("cartCount").textContent=cart.reduce((s,x)=>s+x.quantity,0);
+}
+function openCart(){document.getElementById("cartPanel").classList.add("open");}
+function closeCart(){document.getElementById("cartPanel").classList.remove("open");}
+function checkoutWhatsApp(){
+  if(!cart.length){openCart();return;}
+  const name=document.getElementById("customerName").value.trim();
+  const details=document.getElementById("quoteDetails").value.trim();
+  const lines=cart.map(x=>`• ${x.name} — quantidade: ${x.quantity} ${x.unit} — ${x.price ? brl(x.price)+" por "+x.unit+" (estimativa: "+brl(x.price*x.quantity)+")" : "preço sob consulta"}`);
+  const total=cart.reduce((s,x)=>s+x.price*x.quantity,0);
+  let message=`Olá, Rocket Print! Gostaria de solicitar um orçamento:\\n\\n${lines.join("\\n")}\\n\\nTotal estimado dos itens com preço demonstrativo: ${brl(total)}.\\nAtenção: valores ilustrativos, preciso confirmar o orçamento final.`;
+  if(name) message+=`\\n\\nNome: ${name}`;
+  if(details) message+=`\\n\\nMedidas e detalhes: ${details}`;
+  message+="\\n\\nPodem confirmar valores, materiais, acabamento e prazo, por favor?";
+  /* O link curto do perfil pode não aceitar texto pré-preenchido em todos os aparelhos.
+     O WhatsApp abrirá o contato; se a mensagem não vier preenchida, copie o resumo abaixo. */
+  const encoded = encodeURIComponent(message);
+  const target = whatsappLink + "?text=" + encoded;
+  const opened = window.open(target,"_blank","noopener");
+  if(!opened) window.location.href = target;
+}
+</script>
+
+</body>
+</html>

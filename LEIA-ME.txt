@@ -1,0 +1,17 @@
+ROCKET PRINT SLZ — SITE RESPONSIVO COM CARRINHO DE ORÇAMENTO
+
+O layout foi ajustado para celular, tablet e computador:
+- Desktop: largura centralizada maior, botões em 3 colunas, cartões de produto em 3 ou 4 colunas conforme a largura, espaçamentos maiores.
+- Tablet/celular: cartões refluem para colunas menores; telas muito estreitas usam uma coluna no catálogo para evitar conteúdo espremido.
+- Carrinho: painel modal organizado com lista de itens, total estimado, observações e botão de finalização pelo WhatsApp.
+
+Como visualizar:
+1. Extraia o ZIP.
+2. Abra index.html no navegador. Para testar os recursos e links, prefira hospedar no GitHub Pages.
+
+ANTES DE PUBLICAR:
+- Preços e fotos do catálogo são apenas exemplos, não preços ou trabalhos confirmados da Rocket Print.
+- Confirme o link do WhatsApp e teste a mensagem pré-preenchida em Android, iPhone e desktop. O link curto do perfil pode ter limitações; o ideal é substituir pelo link wa.me com o número oficial da empresa quando confirmado.
+- Troque a busca genérica do Google pelo link direto de avaliação.
+- Preencha dados de Pix e Wi-Fi apenas se a empresa autorizar e fornecer as informações.
+- Adicione fotos reais ao portfólio e confirme endereço/CEP.
