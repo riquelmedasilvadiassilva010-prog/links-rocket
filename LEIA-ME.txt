@@ -1,0 +1,19 @@
+ROCKET PRINT SLZ — VERSÃO PREMIUM DEMONSTRATIVA
+
+ARQUIVO PRINCIPAL
+- index.html: site completo em um único arquivo.
+- A logo foi embutida no HTML para não sumir por erro de caminho.
+- PREVIA-ILUSTRATIVA.png: referência visual da direção de arte.
+
+COMO PUBLICAR NO GITHUB PAGES
+1. Extraia o ZIP.
+2. Envie o arquivo index.html para a raiz do repositório do site.
+3. Se enviar a pasta completa, pode enviar também PREVIA-ILUSTRATIVA.png e este LEIA-ME.txt.
+4. O HTML já inclui CSS e JavaScript; não precisa instalar dependências.
+
+IMPORTANTE ANTES DE PUBLICAR
+- As imagens externas são ilustrativas e carregam da internet.
+- Os preços são demonstrativos; confirme os valores reais.
+- O link WhatsApp está configurado com o link compartilhado anteriormente. Teste-o no celular. Se o link não aceitar mensagem pré-preenchida, envie o número oficial com DDI para trocar para https://wa.me/55DDDNUMERO.
+- A chave Pix e a rede Wi-Fi não foram inventadas; os botões mostram um aviso até inserir os dados corretos.
+- O endereço da localização aponta para uma busca no Google Maps; substituir pelo pin oficial da empresa é melhor.
